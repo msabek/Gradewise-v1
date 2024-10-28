@@ -1,0 +1,122 @@
+.upload-section {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.results-section {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.stProgress > div > div > div > div {
+    background-color: #007bff;
+}
+
+/* Progress tracking styles */
+.progress-container {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+}
+
+.status-text {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #495057;
+}
+
+.detailed-progress {
+    font-size: 0.9em;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+/* LLM Output Container */
+.llm-output-container {
+    padding: 20px;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.llm-output-header {
+    font-size: 1.2em;
+    color: #343a40;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.llm-output-content {
+    font-family: monospace;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
+
+/* Status Indicators */
+.status-indicator {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    border-left: 4px solid #007bff;
+}
+
+.status-indicator.processing {
+    border-left-color: #007bff;
+    background-color: #e7f5ff;
+}
+
+.status-indicator.success {
+    border-left-color: #28a745;
+    background-color: #d4edda;
+}
+
+.status-indicator.error {
+    border-left-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+/* Cancel button styling */
+.stButton > button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Upload statistics */
+.upload-stats {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+/* Custom sidebar styles */
+.sidebar .stSelectbox {
+    margin-bottom: 20px;
+}
+
+.sidebar .stFileUploader {
+    margin-bottom: 25px;
+}
+
+.sidebar .stTextArea {
+    margin-bottom: 20px;
+}
+
+/* Logo styling */
+.sidebar img {
+    margin-bottom: 20px;
+    padding: 10px;
+}
