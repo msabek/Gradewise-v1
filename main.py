@@ -241,7 +241,7 @@ def process_assignments(student_files, ideal_solution_file, grading_instructions
 def main():
     """Main Streamlit application"""
     with st.sidebar:
-        st.title("📝 Assignment Grading")
+        st.title("📝 Assignment Grader By Mohamed sabek")
         
         text_extractor = PDFTextExtractor()
         grading_system = GradingSystem()
